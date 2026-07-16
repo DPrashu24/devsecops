@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: asgbuggy
-        image: 140023360548.dkr.ecr.us-east-1.amazonaws.com/asg:latest
+        image: 291483628871.dkr.ecr.us-east-1.amazonaws.com/asg:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -28,12 +28,11 @@ metadata:
     k8s-app: asgbuggy
   name: asgbuggy
 spec:
-  ports:
-  - name: http
-    port: 80
-    protocol: TCP
-    targetPort: 8080
   type: LoadBalancer
   selector:
     app: asgbuggy
+  ports:
+    - protocol: TCP
+      port: 8002
+      targetPort: 8080
 
