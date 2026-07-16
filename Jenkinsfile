@@ -79,7 +79,7 @@ pipeline {
             zap.sh -cmd \
                 -port 8090 \
                 -cmd \
-                -quickurl http://$HOST \
+                -quickurl http://$HOST:8002 \
                 -quickprogress \
                 -quickout ${WORKSPACE}/zap_report.html
             '''
