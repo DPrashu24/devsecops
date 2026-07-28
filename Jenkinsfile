@@ -40,8 +40,11 @@ pipeline {
                 withAWS(credentials: 'aws-credentials', region: 'us-east-1') {
 
       // Generate fresh kubeconfig that contains a valid IAM token
+      sh '''
+            aws eks update-kubeconfig
+            --region us-east-1
+            --name kubernetes-cluster
             
-
             sh 'kubectl get nodes'
             sh 'kubectl delete all --all -n devsecops || true'
             sh 'kubectl apply -f deployment.yaml --namespace=devsecops'
