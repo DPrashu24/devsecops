@@ -1,0 +1,54 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJQVdrTW10eldKbmt3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBM01qZ3hNRE0xTkRaYUZ3MHpOakEzTWpVeE1EUXdORFphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURPb2FOVVo2cGJ3bVo1bmo0ZitTV3VHVnQvcVYvNGN5a2dDeWxRRjVYSDc3Vncwek41T2JoQzJRdGUKMzhYWThKSEcvazhCZkl5RFBKVzlwYVh6cHlOQVB6THlWcTRsSUk3RVpIOXJFcU9nRURQaml2TVJ0WVRRMzdKMQpTTDlxbVkxTzdUcEZNZ1dCb2NyS3EwWFFTZ2FtVVpTZURpRmFKOGRMSldsdE9sTng5TjNRNUxCeW40L2VDc1F2Cngvd2RGWkMzcDFpQnl2TEhRZkJDZVFwYnFucGRuZ09iZTI0Y01CS3cyeXhkNGptWU1DdFZvVDFzZm9yeVNkSHUKV2NGeVh5WE1nYnF3NUtRZ1hJM0RGYVFmWkVkUWtESXFNUzhGRCtmL2FFRTdNRFcxeTVTbFFpUEQxNDBkNmhhcApjaVFmSTNpQkp5L1hOYkZWZjQ1NHlhOWR3cjB6QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTV2F5dCtiWGFmYkMxY3VlcU9UZTk5QU9iMzVEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQm5lRHgrTG9XNgpmc3IyQUFDbXYxck5RaWpnQ0JzTjBSVzdPUmVHMTZuR20yM1VqZ0x6bjNOaDVrK0RVZ0IxbVJCcE5iSXN3R1VmCnk4RXZGN1ArV0dmY1hORTlwTVo4WnpnOWx1c2s4ZEZMZGZzUFRlUlA1Z2ZtZkppTXpkWE5RYUFtT1o1QzZpNysKTStBVEwxaEVtU2RTaDhxSThCWGduVEx5WXYrMll6aG4vYTdadVkrSlR4ckhMQ0lIdmFLdlk3aDlTS0ROYnBhYgpEOHROSEJEVXhlbEpNd0oxTmdxTFpsajNEVEhkV0JlaThhNWkySGJLM05BYTdXZWRJWjRKMzg3aEJCWHU0TnllClNPVmdFVmVBYzVzbUpHcVRyMXpZOFNuTVlqcE1YUlVYMHhXOCtMenRvK0lzUHFmb3ZOaE5TU3JhT1QxdzRJMGwKcXR1bnNkd3NTVTVGCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://DAD02D152CC6D47A29E94137285FC06E.gr7.us-east-1.eks.amazonaws.com
+  name: kubernetes-cluster.us-east-1.eksctl.io
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJQVdrTW10eldKbmt3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBM01qZ3hNRE0xTkRaYUZ3MHpOakEzTWpVeE1EUXdORFphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURPb2FOVVo2cGJ3bVo1bmo0ZitTV3VHVnQvcVYvNGN5a2dDeWxRRjVYSDc3Vncwek41T2JoQzJRdGUKMzhYWThKSEcvazhCZkl5RFBKVzlwYVh6cHlOQVB6THlWcTRsSUk3RVpIOXJFcU9nRURQaml2TVJ0WVRRMzdKMQpTTDlxbVkxTzdUcEZNZ1dCb2NyS3EwWFFTZ2FtVVpTZURpRmFKOGRMSldsdE9sTng5TjNRNUxCeW40L2VDc1F2Cngvd2RGWkMzcDFpQnl2TEhRZkJDZVFwYnFucGRuZ09iZTI0Y01CS3cyeXhkNGptWU1DdFZvVDFzZm9yeVNkSHUKV2NGeVh5WE1nYnF3NUtRZ1hJM0RGYVFmWkVkUWtESXFNUzhGRCtmL2FFRTdNRFcxeTVTbFFpUEQxNDBkNmhhcApjaVFmSTNpQkp5L1hOYkZWZjQ1NHlhOWR3cjB6QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTV2F5dCtiWGFmYkMxY3VlcU9UZTk5QU9iMzVEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQm5lRHgrTG9XNgpmc3IyQUFDbXYxck5RaWpnQ0JzTjBSVzdPUmVHMTZuR20yM1VqZ0x6bjNOaDVrK0RVZ0IxbVJCcE5iSXN3R1VmCnk4RXZGN1ArV0dmY1hORTlwTVo4WnpnOWx1c2s4ZEZMZGZzUFRlUlA1Z2ZtZkppTXpkWE5RYUFtT1o1QzZpNysKTStBVEwxaEVtU2RTaDhxSThCWGduVEx5WXYrMll6aG4vYTdadVkrSlR4ckhMQ0lIdmFLdlk3aDlTS0ROYnBhYgpEOHROSEJEVXhlbEpNd0oxTmdxTFpsajNEVEhkV0JlaThhNWkySGJLM05BYTdXZWRJWjRKMzg3aEJCWHU0TnllClNPVmdFVmVBYzVzbUpHcVRyMXpZOFNuTVlqcE1YUlVYMHhXOCtMenRvK0lzUHFmb3ZOaE5TU3JhT1QxdzRJMGwKcXR1bnNkd3NTVTVGCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://DAD02D152CC6D47A29E94137285FC06E.gr7.us-east-1.eks.amazonaws.com
+  name: arn:aws:eks:us-east-1:109490194429:cluster/kubernetes-cluster
+contexts:
+- context:
+    cluster: kubernetes-cluster.us-east-1.eksctl.io
+    user: iam-root-account@kubernetes-cluster.us-east-1.eksctl.io
+  name: iam-root-account@kubernetes-cluster.us-east-1.eksctl.io
+- context:
+    cluster: arn:aws:eks:us-east-1:109490194429:cluster/kubernetes-cluster
+    user: arn:aws:eks:us-east-1:109490194429:cluster/kubernetes-cluster
+  name: arn:aws:eks:us-east-1:109490194429:cluster/kubernetes-cluster
+current-context: arn:aws:eks:us-east-1:109490194429:cluster/kubernetes-cluster
+kind: Config
+users:
+- name: iam-root-account@kubernetes-cluster.us-east-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --output
+      - json
+      - --cluster-name
+      - kubernetes-cluster
+      - --region
+      - us-east-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      provideClusterInfo: false
+- name: arn:aws:eks:us-east-1:109490194429:cluster/kubernetes-cluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-1
+      - eks
+      - get-token
+      - --cluster-name
+      - kubernetes-cluster
+      - --output
+      - json
+      command: aws
